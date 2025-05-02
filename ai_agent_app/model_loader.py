@@ -4,7 +4,7 @@ from langchain.llms import HuggingFaceEndpoint
 import streamlit as st
 
 def load_llm():
-    repo_id = "deepseek-ai/DeepSeek-Prover-V2-671B"
+    repo_id = "deepseek-ai/DeepSeek-Prover-V2-7B"
     return HuggingFaceEndpoint(
         repo_id=repo_id,
         huggingfacehub_api_token=st.secrets["HUGGINGFACE_API_KEY"],
