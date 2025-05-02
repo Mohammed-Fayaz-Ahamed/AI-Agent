@@ -2,7 +2,7 @@ import streamlit as st
 from agents import run_all_agents
 
 st.set_page_config(page_title="Mistral LLM Report Generator", layout="centered")
-st.title("📊 AI Research Generator using Mistral")
+st.title("📊 AI Research Generator")
 
 company = st.text_input("Enter Company Name", placeholder="e.g. Samsung")
 
