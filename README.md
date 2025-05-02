@@ -1,4 +1,3 @@
-# AI Research Generator
 #  AI Research Assistant – Multi-Agent LLM App
 
 This is a Streamlit-based AI assistant powered by open-source LLMs for industry analysis, use case generation, and resource discovery. It uses LangChain and Hugging Face models to simulate expert agents for deep market research.
