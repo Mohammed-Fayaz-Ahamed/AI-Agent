@@ -11,11 +11,11 @@ def get_agent(prompt_template: str):
     return LLMChain(llm=llm, prompt=prompt)
 
 industry_researcher = get_agent(
-    "You are an industry analyst. Provide a detailed overview of the industry, market trends, and challenges faced by {company}."
+    "You are an industry analyst. Provide a short overview of the industry, market trends, and challenges faced by {company}."
 )
 
 ai_usecase_strategist = get_agent(
-    "You are an AI strategist. List 5-7 impactful AI/GenAI use cases for {company}. Explain each in 1-2 lines."
+    "You are an AI strategist. List 4-5 impactful AI/GenAI use cases for {company}. Explain each in 1 line."
 )
 
 resource_collector = get_agent(
