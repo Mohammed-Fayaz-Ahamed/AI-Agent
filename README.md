@@ -14,7 +14,8 @@ This is a Streamlit-based AI assistant powered by open-source LLMs for industry 
 
 ##  Architecture
 
-- **Frontend**: Streamlit UI for input, display, and download
+- **Frontend**:
+  - Streamlit UI for input, display, and download
 - **Backend**:
   - LangChain LLMChains for prompt management
   - Hugging Face models (e.g., `google/flan-t5-large`, `tiiuae/falcon-7b-instruct`)
