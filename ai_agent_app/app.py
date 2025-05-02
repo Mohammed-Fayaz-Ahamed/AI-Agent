@@ -7,7 +7,7 @@ st.title("📊 AI Research Generator")
 company = st.text_input("Enter Company Name", placeholder="e.g. Samsung")
 
 if st.button("Generate Report") and company:
-    with st.spinner("Running LangChain agents using Mistral..."):
+    with st.spinner("Processing....."):
         output = run_all_agents(company)
 
     st.success("Report Ready!")
