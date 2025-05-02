@@ -1,1 +1,1 @@
-# AI-Agent
+# AI Research Generator
